@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context="pk.contender.earmouse.ModuleManagerActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <fragment
+        android:id="@+id/fragmentModuleList"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        class="pk.contender.earmouse.ManagerListFragment"
+        tools:layout="@layout/fragment_modulelist" >
+    </fragment>
+
+    <View
+        android:id="@+id/fragment_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:layout_marginTop="4dip"
+        android:background="@color/gray"
+        android:divider="?android:attr/dividerHorizontal" />
+
+    <fragment
+        android:id="@+id/fragmentDetailManager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="pk.contender.earmouse.ManagerDetailsFragment"
+        tools:layout="@layout/fragment_managerdetail" >
+
+    </fragment>
+    
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/manager_ctx_install"
+        android:orderInCategory="1000"
+        android:title="@string/action_install"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"/>
+
+</menu>

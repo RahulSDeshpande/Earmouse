@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/module_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:freezesText="true"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/module_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/module_title"
+        android:gravity="center"
+        android:freezesText="true"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/button_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/manager_button"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:layout_marginTop="4dip"
+        android:background="?android:attr/dividerVertical" />
+
+    <Button
+        android:id="@id/manager_button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:freezesText="true"
+        android:onClick="onButtonClick"
+        android:background="@drawable/btn_default_holo_dark"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:freezesText="true"
+        android:text="@string/no_module_selected"
+        />
+
+</RelativeLayout>

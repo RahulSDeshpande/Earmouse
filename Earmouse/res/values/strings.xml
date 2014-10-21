@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Earmouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reset">Reset history</string>
+    <string name="action_manage">Add modules</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_detail">Module</string>
+    <string name="title_activity_manager_detail">Module</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_module_manager">Add modules</string>
+    
+    <string name="feedback_ready">Exercise ready, press play!</string>
+    <string name="feedback_incorrect">Incorrect, try again!</string>
+    <string name="feedback_correct">Correct, tap any button to continue!</string>
+    <string name="feedback_successrate_value">Success rate: </string>
+    <string name="feedback_successrate_nodata">Success rate: no data available</string>
+    
+    <string name="stats_rate">Success rate: </string>
+
+    <string name="no_module_selected">No module selected</string>
+
+    <string name="content_description_playbutton">Play button</string>
+    <string name="content_description_difficulty_icon">Icon to indicate module difficulty</string>
+    
+    <string name="manager_installed_subscript">installed</string>
+    <string name="manager_notinstalled_subscript">not installed</string>
+    <string name="manager_install_button">Install</string>
+    <string name="manager_uninstall_button">Uninstall</string>
+    
+    <string name="media_error_preparing">Error preparing media</string>
+    
+    <string name="http_received_empty">Received empty reply from server</string>
+    <string name="http_error">Error contacting server</string>
+
+    <string name="dialog_delete">Are you sure you want to delete the selected items?\nAll statistics data will be lost</string>
+    <string name="dialog_deleteconfirm">Delete</string>
+    <string name="dialog_deleteabort">Abort</string>
+    <string name="dialog_reset">Are you sure you want to reset the selected items?\nAll statistics data will be lost</string>
+    <string name="dialog_resetconfirm">Reset</string>
+    <string name="dialog_resetabort">Abort</string>
+
+    <string name="about_title">About Earmouse</string>
+    <string name="about_message"><i>test</i><b>bold</b><p>testcakes</p></string>
+    
+    <string name="mainlist_successrate">success rate</string>
+    <string name="list_no_modules_installed">No modules installed</string>
+    <string name="toast_module_installed">Module successfully installed</string>
+    <string name="toast_error_installing_module">Error installing module</string>
+    <string name="action_install">Install</string>
+    <string name="cab_selected">selected</string>
+    <string name="cab_deleted">deleted</string>
+    <string name="cab_installed">installed</string>
+    <string name="cab_reset">reset</string>
+    <string name="list_no_modules_available">No new modules available</string>
+
+    <plurals name="plural_exercise">
+        <item quantity="one">exercise</item>
+        <item quantity="other">exercises</item>
+    </plurals>
+
+    <plurals name="plural_module">
+        <item quantity="one">module</item>
+        <item quantity="other">modules</item>
+    </plurals>
+    
+    
+    
+
+</resources>

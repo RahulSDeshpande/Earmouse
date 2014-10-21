@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="pk.contender.earmouse.Main"
+    tools:ignore="MergeRootFrame" >
+
+    <fragment
+        android:id="@+id/fragment_modulelist"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="pk.contender.earmouse.ModuleListFragment"
+        tools:layout="@layout/fragment_modulelist" >
+    </fragment>
+
+</LinearLayout>
